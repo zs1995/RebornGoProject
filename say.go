@@ -10,3 +10,7 @@ func SayHi(name string) string {
 func SayHello(name string) string {
 	return fmt.Sprintf("Hello, %s", name)
 }
+
+func SayYes(name string) string {
+	return fmt.Sprintf("Yes, %s", name)
+}
