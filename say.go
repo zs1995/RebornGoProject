@@ -14,3 +14,7 @@ func SayHello(name string) string {
 func SayNo(name string) string {
 	return fmt.Sprintf("No, %s", name)
 }
+
+func SayYes(name string) string {
+	return fmt.Sprintf("Yes, %s", name)
+}
